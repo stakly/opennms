@@ -3,13 +3,13 @@ This repository contains **Dockerfile** of [OpenNMS](http://www.opennms.org/) fo
 
 ### Build
 ```sh
-# ./build.sh`
+# ./build.sh
 ```
 
 ### Run
 1. Start first the dockerized Postgres container
 ```sh
-# docker run --name opennms-database -e POSTGRES_PASSWORD=mysecretpassword -d postgres`
+# docker run --name opennms-database -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 ```
 
 2. Pull the OpenNMS image and run the container linked to the postgres database
