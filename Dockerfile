@@ -25,7 +25,7 @@ RUN echo "debconf shared/accepted-oracle-license-v1-1 seen true" | sudo debconf-
 RUN apt-get install -y oracle-java8-installer oracle-java8-set-default
 
 # Postfix
-RUN echo "postfix postfix/mailname string monitor.konsom.ru" | debconf-set-selections
+RUN echo "postfix postfix/mailname string opennms" | debconf-set-selections
 RUN echo "postfix postfix/main_mailer_type string 'Internet Site'" | debconf-set-selections
 RUN apt-get install -y default-mta
 
