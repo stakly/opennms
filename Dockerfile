@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Stanislav Lyudvik <z@svtk.ru>
+MAINTAINER Stanislav Lyudvik <root@qw3rty.org>
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN locale-gen en_US.UTF-8
